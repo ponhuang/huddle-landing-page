@@ -1,8 +1,122 @@
+/*---------- HERO SECTION ----------*/
+.section-hero {
+  padding: 3.5rem 5rem;
+}
+
+.logo {
+  max-width: 20rem;
+  margin-bottom: 4rem;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+
+  &__img {
+    width: Min(80%, 69rem);
+  }
+
+  &__info {
+    color: white;
+    width: Min(90%, 52rem);
+    margin-top: 3rem;
+  }
+}
+
+.social-link {
+  display: flex;
+  gap: 1.2rem;
+  justify-content: end;
+  list-style: none;
+}
+
+/*---------- HELPING CLASS ----------*/
+.heading-h1 {
+  font-size: 4rem;
+  font-family: $font-heading;
+  margin-bottom: 1.2rem;
+}
+
+.paragraph {
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+.btn {
+  display: inline-block;
+  padding: 1.2rem 4.2rem;
+  border: none;
+  border-radius: 100px;
+  color: $color-primary;
+  box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+
+  &:hover,
+  &:active {
+    background-color: $color-secondary;
+    color: white;
+  }
+}
+
+.icon {
+  color: white;
+  font-size: 3rem;
+
+  &:hover {
+    color: $color-secondary;
+  }
+}
+
 /*---------- FOOTER ----------*/
 .attribution {
+  margin-top: 5rem;
   font-size: 11px;
   text-align: center;
+  color: #aaa;
 }
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: $color-primary;
+}
+
+/*---------- 1100px ----------*/
+@media (max-width: 68.75em) {
+  main {
+    background-image: url("../images/bg-mobile.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100vh;
+  }
+  .section-hero {
+    padding: 2rem 3rem;
+  }
+
+  .hero {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &__info {
+      text-align: center;
+      margin-bottom: 5rem;
+      margin-top: 2rem;
+    }
+  }
+
+  .social-link {
+    justify-content: center;
+  }
+
+  .heading-h1 {
+    font-size: 2.4rem;
+    margin-bottom: 1.6rem;
+  }
+
+  .paragraph {
+    margin-bottom: 2.4rem;
+  }
+
+  .logo {
+    max-width: 15rem;
+  }
 }
