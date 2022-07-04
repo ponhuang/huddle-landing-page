@@ -50,6 +50,14 @@ Mobile
 
 ### What I learned
 
+Links must have discernible text
+
+```html
+<a href="#" aria-label="Twitter link">
+  <ion-icon name="logo-twitter" class="icon"><a href="#"></a></ion-icon
+></a>
+```
+
 ### Continued development
 
 ### Useful resources
@@ -58,7 +66,7 @@ Mobile
 
 Pon Huang
 
-[Intagram](https://www.instagram.com/ponhuang/)
-[Art Blog](https://une722.wordpress.com)
+- [Intagram](https://www.instagram.com/ponhuang/)
+- [Art Blog](https://une722.wordpress.com)
 
 ## Acknowledgments

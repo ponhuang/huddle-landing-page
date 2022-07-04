@@ -19,64 +19,72 @@
     />
     <title>Huddle landing page with single introductory section</title>
     <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://i.icomoon.io/public/temp/e87b9a39fe/UntitledProject/style-svg.css"
+    />
   </head>
   <body>
     <main>
-      <section class="section-hero">
+      <header>
         <img src="images/logo.svg" alt="Huddle Logo" class="logo" />
-        <header class="hero">
+      </header>
+
+      <section class="section-hero">
+        <div class="hero__img">
           <img
             src="images/illustration-mockups.svg"
             alt="webpage on mobile and deckstop device"
-            class="hero__img"
           />
-          <div class="hero__info">
-            <h1 class="heading-h1">Build The Community Your Fans Will Love</h1>
-            <p class="paragraph">
-              Huddle re-imagines the way we build communities. You have a voice,
-              but so does your audience. Create connections with your users as
-              you engage in genuine discussion.
-            </p>
-            <button class="btn">Register</button>
-          </div>
-        </header>
-        <ul class="social-link">
-          <li>
-            <a href="#">
-              <ion-icon name="logo-facebook" class="icon"></ion-icon
-            ></a>
-          </li>
-          <li>
-            <a href="#">
-              <ion-icon name="logo-twitter" class="icon"
-                ><a href="#"></a></ion-icon
-            ></a>
-          </li>
-          <li>
-            <a href="#">
-              <ion-icon name="logo-instagram" class="icon"></ion-icon
-            ></a>
-          </li>
-        </ul>
+        </div>
+        <div class="hero__info">
+          <h1 class="heading-h1">Build The Community Your Fans Will Love</h1>
+          <p class="paragraph">
+            Huddle re-imagines the way we build communities. You have a voice,
+            but so does your audience. Create connections with your users as you
+            engage in genuine discussion.
+          </p>
+          <button class="btn">Register</button>
+        </div>
       </section>
     </main>
 
     <footer>
-      <p class="attribution">
-        Challenge by
-        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-          >Frontend Mentor</a
-        >. Coded by
-        <a href="https://github.com/ponhuang/huddle-landing-page">Pon Huang</a>.
-      </p>
+      <div class="attribution">
+        <p>
+          Challenge by
+          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+            >Frontend Mentor</a
+          >. Coded by
+          <a href="https://github.com/ponhuang/huddle-landing-page">Pon Huang</a
+          >.
+        </p>
+      </div>
+
+      <ul class="social-link">
+        <li>
+          <a href="#" aria-label="Facebook link">
+            <svg class="icon social-icon icon-facebook">
+              <use xlink:href="#icon-facebook"></use></svg
+          ></a>
+        </li>
+        <li>
+          <a href="#" aria-label="Twitter link">
+            <svg class="icon social-icon icon-twitter">
+              <use xlink:href="#icon-twitter"></use></svg
+          ></a>
+        </li>
+        <li>
+          <a href="#" aria-label="Instagram link">
+            <svg class="icon social-icon icon-instagram">
+              <use xlink:href="#icon-instagram"></use></svg
+          ></a>
+        </li>
+      </ul>
     </footer>
     <script
-      type="module"
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
-    ></script>
-    <script
-      nomodule
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+      defer
+      src="https://i.icomoon.io/public/temp/e87b9a39fe/UntitledProject/svgxuse.js"
     ></script>
   </body>
 </html>
