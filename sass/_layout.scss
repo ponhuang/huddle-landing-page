@@ -49,6 +49,7 @@ header {
   border: none;
   border-radius: 100px;
   color: $color-primary;
+  background-color: white;
   box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.3);
   text-transform: uppercase;
   cursor: pointer;
@@ -66,6 +67,7 @@ footer {
   justify-content: space-between;
   align-items: center;
   padding: 3.5rem;
+  max-width: 90vw;
 }
 .social-link {
   display: flex;
@@ -83,6 +85,7 @@ footer {
 
   &:hover {
     color: $color-secondary;
+    border: 1.5px solid $color-secondary;
   }
 }
 
@@ -141,5 +144,6 @@ footer {
   footer {
     flex-direction: column-reverse;
     gap: 3rem;
+    width: 100vw;
   }
 }

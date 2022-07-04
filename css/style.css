@@ -63,6 +63,7 @@ header {
   border: none;
   border-radius: 100px;
   color: #674baf;
+  background-color: white;
   box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.3);
   text-transform: uppercase;
   cursor: pointer; }
@@ -75,7 +76,8 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 3.5rem; }
+  padding: 3.5rem;
+  max-width: 90vw; }
 
 .social-link {
   display: flex;
@@ -90,7 +92,8 @@ footer {
   border-radius: 100px;
   padding: 1rem; }
   .social-icon:hover {
-    color: #e882e8; }
+    color: #e882e8;
+    border: 1.5px solid #e882e8; }
 
 .attribution {
   font-size: 11px;
@@ -124,4 +127,5 @@ footer {
     max-width: 15rem; }
   footer {
     flex-direction: column-reverse;
-    gap: 3rem; } }
+    gap: 3rem;
+    width: 100vw; } }
