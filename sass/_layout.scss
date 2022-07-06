@@ -14,13 +14,14 @@ header {
   // justify-content: space-between;
   align-items: center;
   min-height: 60vh;
+  // min-height insures this section has minimum height to straight mobile viewport and desktop, also allows it expand for arrow device.
 }
 
 .hero {
   &__img {
-    width: Min(90%, 60rem);
+    width: Min(95%, 60rem);
     img {
-      width: 90%;
+      width: 100%;
     }
   }
 
@@ -144,6 +145,6 @@ footer {
   footer {
     flex-direction: column-reverse;
     gap: 3rem;
-    width: 100vw;
+    max-width: 100%;
   }
 }

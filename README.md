@@ -70,3 +70,6 @@ Pon Huang
 - [Art Blog](https://une722.wordpress.com)
 
 ## Acknowledgments
+
+Thank Ahmed, he gave me a lot of advice to optimize my solution.
+[Ahmed Mahmoud Abdelwahab](https://www.frontendmentor.io/profile/Ahmed96Mah)
